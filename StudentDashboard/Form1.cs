@@ -14,5 +14,14 @@ namespace StudentDashboard
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string text = textBox1.Text;
+            if (text == "ŞİNANAY DA YAVRUM ŞİNAŞİNANAY")
+            {
+                MessageBox.Show("OROSPU ÇOCUĞU GALATASARAY");
+            }
+        }
     }
 }
