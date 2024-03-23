@@ -42,6 +42,11 @@ namespace StudentDashboard
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         /*ATA DENEME 2*/
     }
 }

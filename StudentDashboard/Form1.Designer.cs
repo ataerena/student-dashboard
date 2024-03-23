@@ -41,7 +41,7 @@
             // StudentID
             // 
             this.StudentID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.StudentID.Location = new System.Drawing.Point(149, 214);
+            this.StudentID.Location = new System.Drawing.Point(148, 214);
             this.StudentID.Name = "StudentID";
             this.StudentID.Size = new System.Drawing.Size(185, 20);
             this.StudentID.TabIndex = 0;
@@ -67,17 +67,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 256);
+            this.label2.Location = new System.Drawing.Point(82, 256);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Student Password";
+            this.label2.Text = "Password";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // StudentPassword
             // 
             this.StudentPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.StudentPassword.Location = new System.Drawing.Point(149, 253);
+            this.StudentPassword.Location = new System.Drawing.Point(148, 253);
             this.StudentPassword.Name = "StudentPassword";
             this.StudentPassword.PasswordChar = '*';
             this.StudentPassword.Size = new System.Drawing.Size(185, 20);
@@ -93,6 +93,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Teacher Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // imageList1
             // 
@@ -105,7 +106,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(429, 526);
+            this.ClientSize = new System.Drawing.Size(427, 526);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.StudentPassword);
