@@ -15,6 +15,6 @@ namespace StudentDashboard
             InitializeComponent();
         }
 
-        /*ATA DENEME*/
+        /*ATA DENEME 2*/
     }
 }
