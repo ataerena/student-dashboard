@@ -99,19 +99,13 @@
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(429, 526);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.StudentPassword);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.StudentID);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -122,6 +116,7 @@
         }
 
         #endregion
+
 
         private System.Windows.Forms.TextBox StudentID;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
